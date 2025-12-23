@@ -1,0 +1,20 @@
+{
+  "name": "tdd-starter",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kao Chien Lung",
+    "email": "eddie@5xcampus.com",
+    "url": "https://kaochenlong.com"
+  },
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
